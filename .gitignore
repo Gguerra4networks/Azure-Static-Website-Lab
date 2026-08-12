@@ -1,0 +1,14 @@
+# This lab has no Terraform state and no secrets written to disk,
+# uploads use Azure AD identity, not a saved account key.
+# This file mainly guards against OS junk and local scratch files.
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings, personal to your machine, not the lab
+.vscode/
+
+# In case a key ever gets saved to a file by accident during troubleshooting
+*.key
+account-key.txt
