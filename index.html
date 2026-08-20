@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Cloud Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hello from the Cloud</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
       text-align: center;
-      margin-top: 50px;
-      background-color: #f0f0f0;
+      background: white;
+      padding: 60px 80px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
-    h1 {
-      color: #0078d4;
-    }
+    h1 { color: #0078d4; font-size: 2.5rem; margin-bottom: 12px; }
+    p  { color: #444; font-size: 1.1rem; margin: 6px 0; }
   </style>
 </head>
 <body>
-  <h1>Hello from the Cloud!</h1>
-  <p>This site is hosted on Azure Blob Storage.</p>
-  <p>Deployed by: Giovanni Guerra</p>
+  <div class="card">
+    <h1>Hello from the Cloud!</h1>
+    <p>This site is hosted on Azure Blob Storage.</p>
+    <p>Deployed by: Giovanni Guerra</p>
+  </div>
 </body>
 </html>

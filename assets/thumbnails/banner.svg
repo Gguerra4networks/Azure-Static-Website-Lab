@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#042C53;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0C447C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Decorative grid lines -->
+  <line x1="0" y1="80" x2="1200" y2="80" stroke="#378ADD" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="320" x2="1200" y2="320" stroke="#378ADD" stroke-width="0.5" opacity="0.3"/>
+  <line x1="80" y1="0" x2="80" y2="400" stroke="#378ADD" stroke-width="0.5" opacity="0.2"/>
+  <line x1="1120" y1="0" x2="1120" y2="400" stroke="#378ADD" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="100" width="6" height="200" rx="3" fill="#EF9F27"/>
+
+  <!-- CEA label -->
+  <text x="106" y="140" font-size="18" fill="#85B7EB" font-weight="600" letter-spacing="4">CLOUD ENGINEERING ACCELERATOR</text>
+
+  <!-- Lab number -->
+  <text x="106" y="200" font-size="72" fill="white" font-weight="900">Lab 01</text>
+
+  <!-- Lab title -->
+  <text x="106" y="252" font-size="28" fill="#EF9F27" font-weight="700">Host a Static Website on Azure Blob Storage</text>
+
+  <!-- Tags -->
+  <rect x="106" y="276" width="80" height="26" rx="13" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+  <text x="146" y="294" font-size="13" fill="#85B7EB" text-anchor="middle">Azure CLI</text>
+
+  <rect x="198" y="276" width="80" height="26" rx="13" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+  <text x="238" y="294" font-size="13" fill="#85B7EB" text-anchor="middle">PaaS</text>
+
+  <rect x="290" y="276" width="110" height="26" rx="13" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+  <text x="345" y="294" font-size="13" fill="#85B7EB" text-anchor="middle">Blob Storage</text>
+
+  <rect x="412" y="276" width="100" height="26" rx="13" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+  <text x="462" y="294" font-size="13" fill="#85B7EB" text-anchor="middle">Serverless</text>
+
+  <rect x="524" y="276" width="80" height="26" rx="13" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+  <text x="564" y="294" font-size="13" fill="#85B7EB" text-anchor="middle">$0 VM</text>
+
+  <!-- Right side — terminal window -->
+  <rect x="780" y="90" width="340" height="220" rx="10" fill="#0d0d1a"/>
+  <rect x="780" y="90" width="340" height="34" rx="10" fill="#1e1e30"/>
+  <rect x="780" y="112" width="340" height="12" fill="#1e1e30"/>
+  <circle cx="800" cy="107" r="6" fill="#E24B4A"/>
+  <circle cx="820" cy="107" r="6" fill="#EF9F27"/>
+  <circle cx="840" cy="107" r="6" fill="#639922"/>
+  <text x="940" y="112" font-size="11" fill="#5F5E5A" text-anchor="middle">bash — static-website-lab</text>
+
+  <text x="798" y="148" font-size="12" fill="#5DCAA5" font-family="Courier New, monospace">$ az storage account create \</text>
+  <text x="798" y="168" font-size="12" fill="#5DCAA5" font-family="Courier New, monospace">  --https-only true \</text>
+  <text x="798" y="188" font-size="12" fill="#5DCAA5" font-family="Courier New, monospace">  --min-tls-version TLS1_2</text>
+  <text x="798" y="218" font-size="12" fill="#888780" font-family="Courier New, monospace">$ az storage blob upload-batch \</text>
+  <text x="798" y="238" font-size="12" fill="#888780" font-family="Courier New, monospace">  --destination '$web'</text>
+  <text x="798" y="268" font-size="13" fill="#EF9F27" font-family="Courier New, monospace" font-weight="bold">StatusCode: 200 ✓</text>
+
+  <!-- Bottom credit -->
+  <text x="106" y="370" font-size="14" fill="#378ADD" opacity="0.7">github.com/Gguerra4networks · Giovanni Guerra · Cloud Engineering Accelerator</text>
+</svg>

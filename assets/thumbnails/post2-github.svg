@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="1200" height="628" fill="#0d0d1a"/>
+
+  <!-- Terminal window -->
+  <rect x="60" y="60" width="1080" height="508" rx="12" fill="#111122"/>
+  <rect x="60" y="60" width="1080" height="44" rx="12" fill="#1e1e30"/>
+  <rect x="60" y="92" width="1080" height="20" fill="#1e1e30"/>
+  <circle cx="96" cy="82" r="9" fill="#E24B4A"/>
+  <circle cx="126" cy="82" r="9" fill="#EF9F27"/>
+  <circle cx="156" cy="82" r="9" fill="#639922"/>
+  <text x="600" y="88" font-size="15" fill="#5F5E5A" text-anchor="middle" font-family="Courier New, monospace">bash — host_a_Static_Website — VS Code</text>
+
+  <!-- Code lines -->
+  <text x="100" y="160" font-size="22" fill="#5DCAA5" font-family="Courier New, monospace">$ git status</text>
+  <text x="100" y="200" font-size="20" fill="#888780" font-family="Courier New, monospace">On branch master · No commits yet</text>
+  <text x="100" y="238" font-size="20" fill="#888780" font-family="Courier New, monospace">Changes to be committed:</text>
+  <text x="140" y="274" font-size="20" fill="#5DCAA5" font-family="Courier New, monospace">new file:   404.html</text>
+  <text x="140" y="308" font-size="20" fill="#5DCAA5" font-family="Courier New, monospace">new file:   index.html</text>
+  <text x="140" y="342" font-size="20" fill="#5DCAA5" font-family="Courier New, monospace">new file:   set-vars.ps1</text>
+
+  <text x="100" y="390" font-size="22" fill="#5DCAA5" font-family="Courier New, monospace">$ az storage blob upload-batch --destination '$web'</text>
+  <text x="100" y="430" font-size="22" fill="#EF9F27" font-family="Courier New, monospace">Finished[##########################################] 2/2</text>
+
+  <!-- Divider -->
+  <line x1="100" y1="458" x2="1100" y2="458" stroke="#2a2a3e" stroke-width="1"/>
+
+  <!-- Bottom label -->
+  <text x="100" y="502" font-size="28" fill="white" font-weight="700">Full repo on GitHub · Star it if it helps</text>
+  <text x="100" y="538" font-size="18" fill="#5DCAA5">Azure CLI · Blob Storage · Git · VS Code · Under $5/mo</text>
+</svg>

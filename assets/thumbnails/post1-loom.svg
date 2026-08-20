@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#042C53"/>
+      <stop offset="100%" style="stop-color:#0C447C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="628" fill="url(#bg1)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="628" x2="1200" y2="0" stroke="#378ADD" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="0" x2="600" y2="628" stroke="#378ADD" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Left accent -->
+  <rect x="80" y="120" width="8" height="300" rx="4" fill="#EF9F27"/>
+
+  <!-- Main text -->
+  <text x="116" y="210" font-size="88" fill="white" font-weight="900">You don't</text>
+  <text x="116" y="310" font-size="88" fill="white" font-weight="900">need a server</text>
+  <text x="116" y="410" font-size="88" fill="#EF9F27" font-weight="900">to host a site.</text>
+
+  <!-- Sub text -->
+  <text x="116" y="470" font-size="26" fill="#85B7EB">Azure Blob Storage · No VM · No patching · Under $5/mo</text>
+
+  <!-- Watch now badge -->
+  <rect x="116" y="510" width="200" height="52" rx="26" fill="#EF9F27"/>
+  <text x="216" y="543" font-size="20" fill="#412402" font-weight="700" text-anchor="middle">▶  WATCH NOW</text>
+
+  <!-- Right side play circle -->
+  <circle cx="1020" cy="314" r="140" fill="#0C447C" opacity="0.6"/>
+  <circle cx="1020" cy="314" r="140" fill="none" stroke="#378ADD" stroke-width="2" opacity="0.6"/>
+  <polygon points="998,260 998,368 1094,314" fill="#EF9F27"/>
+
+  <!-- CEA label bottom -->
+  <text x="116" y="600" font-size="16" fill="#378ADD" opacity="0.6">Cloud Engineering Accelerator · Lab 01 · github.com/Gguerra4networks</text>
+</svg>

@@ -1,14 +1,114 @@
-# This lab has no Terraform state and no secrets written to disk,
-# uploads use Azure AD identity, not a saved account key.
-# This file mainly guards against OS junk and local scratch files.
+# ============================================================
+# Cloud Engineering Accelerator — Lab 01
+# .gitignore — Keep secrets and personal data out of GitHub
+# ============================================================
 
-# OS junk files
-.DS_Store
-Thumbs.db
+# ------------------------------------------------------------
+# Azure credentials and config
+# ------------------------------------------------------------
+.azure/
+azure.json
+azureProfile.json
+accessTokens.json
+*.publishsettings
+*.azureauth
 
-# VS Code local settings, personal to your machine, not the lab
-.vscode/
-
-# In case a key ever gets saved to a file by accident during troubleshooting
+# ------------------------------------------------------------
+# SSH keys — never commit these
+# ------------------------------------------------------------
+*.pem
 *.key
-account-key.txt
+*.ppk
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+
+# ------------------------------------------------------------
+# Environment and secret variable files
+# ------------------------------------------------------------
+.env
+.env.*
+*.env
+secrets.ps1
+secrets.sh
+secrets.json
+credentials.json
+credentials.ps1
+
+# ------------------------------------------------------------
+# Terraform state and variable files
+# If you extend this lab with Terraform later
+# ------------------------------------------------------------
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+
+# ------------------------------------------------------------
+# VS Code local settings
+# ------------------------------------------------------------
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.log
+
+# Keep workspace and extension recommendations
+!.vscode/extensions.json
+
+# ------------------------------------------------------------
+# PowerShell session and history files
+# ------------------------------------------------------------
+*.ps1xml
+ConsoleHost_history.txt
+
+# ------------------------------------------------------------
+# macOS system files
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ------------------------------------------------------------
+# Windows system files
+# ------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# Node / npm (if you extend this lab later)
+# ------------------------------------------------------------
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# ------------------------------------------------------------
+# Python (if you extend this lab later)
+# ------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ------------------------------------------------------------
+# Log files
+# ------------------------------------------------------------
+*.log
+*.log.*
+logs/
+
+# ------------------------------------------------------------
+# Backup and temp files
+# ------------------------------------------------------------
+*.bak
+*.tmp
+*.swp
+*.orig
+*~
