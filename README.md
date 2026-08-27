@@ -3,6 +3,8 @@
 
 ![Lab Banner](assets/thumbnails/banner.svg)
 
+🎥 [Watch me build this lab on Loom](https://www.loom.com/share/80489917762448ae8c8f88fb2e41f5f0)
+
 ---
 
 ## What This Lab Is
