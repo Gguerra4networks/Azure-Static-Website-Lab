@@ -72,8 +72,8 @@ Under **$5 per month** for realistic personal traffic. Free for this lab if you 
 
 ```powershell
 # Clone this repo
-git clone https://github.com/Gguerra4networks/host_a_Static_Website.git
-cd host_a_Static_Website
+git clone https://github.com/Gguerra4networks/Azure-static-website-lab.git
+cd Azure-static-website-lab
 
 # Load your variables
 . .\set-vars.ps1
@@ -151,7 +151,7 @@ You should see `StatusCode: 200`.
 ## Project Structure
 
 ```
-host_a_Static_Website/
+Azure-static-website-lab/
 ├── index.html                        # Your main page
 ├── 404.html                          # Custom error page
 ├── set-vars.ps1                      # Lab variables — load this every session
