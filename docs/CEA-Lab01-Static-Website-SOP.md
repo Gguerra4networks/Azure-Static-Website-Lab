@@ -269,7 +269,7 @@ git commit -m "Lab 01: Static website deployed on Azure Blob Storage"
 ```
 
 ```powershell
-git remote add origin https://github.com/Gguerra4networks/host_a_Static_Website.git
+git remote add origin https://github.com/Gguerra4networks/Azure-static-website-lab.git
 ```
 
 ```powershell
