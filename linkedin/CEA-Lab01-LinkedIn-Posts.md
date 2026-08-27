@@ -17,7 +17,7 @@ One storage account. Two HTML files. A public endpoint. That's it.
 
 Real teams use this same setup for portfolio sites, docs pages, and marketing sites. And it runs for less than a cup of coffee a month.
 
-🎥 Full walkthrough → [Loom link]
+🎥 Full walkthrough → https://www.loom.com/share/80489917762448ae8c8f88fb2e41f5f0
 
 Drop a 🔁 if you're building your cloud portfolio this year.
 
@@ -95,9 +95,9 @@ What's a small workflow fix that made your labs run smoother? 👇
 
 ## POSTING NOTES
 
-- Post 1: Upload post1-loom.svg as the post image. Replace [Loom link] with your actual URL.
+- Post 1: Upload post1-loom.svg as the post image. Loom link is already set in the post text above.
 - Post 2: Paste the repo URL into LinkedIn first, wait for thumbnail, delete URL, paste post text. Drop real link in first comment.
-  Repo: https://github.com/Gguerra4networks/host_a_Static_Website
+  Repo: https://github.com/Gguerra4networks/Azure-static-website-lab
 - Post 3: Upload post3-learned.svg as the post image.
 - Post 4: Upload post4-different.svg as the post image.
 - Tag @Microsoft Azure on Posts 1 and 2 for extra reach.
